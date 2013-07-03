@@ -24,7 +24,7 @@ page.open url, (status) ->
         m[1] = "0" + m[1]  if m[1] < 10
         m[1] + ":" + m[2]
 
-      magical_regexp = /(\d{1,2}:\d{1,2} [ap]m)(\dh)(\d{1,2}:\d{1,2} [ap]m)(.*)from.\$(\d+)/
+      magical_regexp = /(\d{1,2}:\d{1,2} [ap]m)(\dh)(\d{1,2}:\d{1,2} [ap]m)(.*)from.\$(\d+)/ # duh.
       list = document.querySelectorAll(".GLUJYJKK2B")
       flight_rows = []
       i = 0
